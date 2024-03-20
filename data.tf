@@ -1,5 +1,5 @@
 # data.tf
-data "aws_ami" "amayon_linux" {
+data "aws_ami" "amazon_linux" {
     most_recent = true
     filter {
       name = "name"
@@ -9,5 +9,5 @@ data "aws_ami" "amayon_linux" {
 }
 
 data "aws_region" "current" {
-  
+
 }
