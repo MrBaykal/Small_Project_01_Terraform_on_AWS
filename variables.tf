@@ -13,7 +13,7 @@ variable "project" {
 }
 
 variable "contact" {
-  default = "ebaykal2266@gmail.com"
+  default = "ebaykal@gmail.com"
 }
 
 variable "vpc_cidr" {
